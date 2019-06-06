@@ -4,19 +4,21 @@ import math
   
 def calculate_time(func): 
       
-    def inner1(*args, **kwargs): 
+    def addfunctionality(*args, **kwargs): 
   
         begin = time.time() 
-        func(*args, **kwargs) 
+        returned_value = func(*args, **kwargs) 
         end = time.time() 
-        print("Total time taken in : ", func.__name__, end - begin) 
-  
-    return inner1 
+        print("Total time taken in : ", func.__name__, end - begin)
+        return returned_value
+ 
+    return addfunctionality 
   
   
 @calculate_time
 def factorial(num): 
     time.sleep(2) 
-    print(math.factorial(num)) 
+    return math.factorial(num)
   
-factorial(10) 
+print(factorial(10)) 
+
