@@ -29,7 +29,6 @@ for line in reader.readlines():
         temp = dict({'_index': 'indian_banks_bulk','_type': 'detail','_id': count})
         temp.update(dictt)
         dict_list_bulk.append(temp)
-        #es.index(index='indian_banks', doc_type='detail', body= dictt)
     count += 1
 
 time2 = time.time()
