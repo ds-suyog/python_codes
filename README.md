@@ -1,6 +1,4 @@
-# python_codes     
-
-I do many things here and there. So, I put it here. 
+# python_codes      
 
 ### bulk insertion vs 1 by 1 insertion comparison
 data process time =  0.13933038711547852

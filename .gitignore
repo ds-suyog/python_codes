@@ -89,6 +89,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+<<<<<<< HEAD
+=======
+test.py
+>>>>>>> repo-a/master
 
 # Spyder project settings
 .spyderproject
